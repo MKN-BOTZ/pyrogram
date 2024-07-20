@@ -1,7 +1,7 @@
 Available Methods
 =================
 
-This page is about Pyrogram methods. All the methods listed here are bound to a :class:`~pyrogram.Client` instance,
+This page is about Pyrofork methods. All the methods listed here are bound to a :class:`~pyrogram.Client` instance,
 except for :meth:`~pyrogram.idle()` and :meth:`~pyrogram.compose()`, which are special functions that can be found in
 the main package directly.
 
@@ -47,6 +47,19 @@ Utilities
 
 .. currentmodule:: pyrogram.Client
 
+Conversation
+------------
+
+.. autosummary::
+    :nosignatures:
+
+    {conversation}
+
+.. toctree::
+    :hidden:
+
+    {conversation}
+
 Messages
 --------
 
@@ -60,6 +73,19 @@ Messages
 
     {messages}
 
+Stories
+-------
+
+.. autosummary::
+    :nosignatures:
+
+    {stories}
+
+.. toctree::
+    :hidden:
+
+    {stories}
+
 Chats
 -----
 
@@ -72,6 +98,32 @@ Chats
     :hidden:
 
     {chats}
+
+Stickers
+--------
+
+.. autosummary::
+    :nosignatures:
+
+    {stickers}
+
+.. toctree::
+    :hidden:
+
+    {stickers}
+
+Telegram Business
+-------------
+
+.. autosummary::
+    :nosignatures:
+
+    {business}
+
+.. toctree::
+    :hidden:
+
+    {business}
 
 Users
 -----
@@ -150,32 +202,6 @@ Authorization
     :hidden:
 
     {authorization}
-
-Stories
--------------
-
-.. autosummary::
-    :nosignatures:
-
-    {stories}
-
-.. toctree::
-    :hidden:
-
-    {stories}
-
-Premium
--------------
-
-.. autosummary::
-    :nosignatures:
-
-    {premium}
-
-.. toctree::
-    :hidden:
-
-    {premium}
 
 Advanced
 --------

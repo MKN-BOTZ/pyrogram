@@ -1,7 +1,7 @@
 Bound Methods
 =============
 
-Some Pyrogram types define what are called bound methods. Bound methods are functions attached to a type which are
+Some Pyrofork types define what are called bound methods. Bound methods are functions attached to a type which are
 accessed via an instance of that type. They make it even easier to call specific methods by automatically inferring
 some of the required arguments.
 
@@ -35,6 +35,19 @@ Message
     :hidden:
 
     {message_toctree}
+
+Story
+-----
+
+.. hlist::
+    :columns: 3
+
+    {story_hlist}
+
+.. toctree::
+    :hidden:
+
+    {story_toctree}
 
 Chat
 ----
@@ -89,7 +102,7 @@ InlineQuery
     {inline_query_toctree}
 
 PreCheckoutQuery
------------
+----------------
 
 .. hlist::
     :columns: 2
@@ -100,6 +113,19 @@ PreCheckoutQuery
     :hidden:
 
     {pre_checkout_query_toctree}
+
+ShippingQuery
+-------------
+
+.. hlist::
+    :columns: 2
+
+    {shipping_query_hlist}
+
+.. toctree::
+    :hidden:
+
+    {shipping_query_toctree}
 
 ChatJoinRequest
 ---------------
@@ -114,28 +140,3 @@ ChatJoinRequest
 
     {chat_join_request_toctree}
 
-Story
----------------
-
-.. hlist::
-    :columns: 3
-
-    {story_hlist}
-
-.. toctree::
-    :hidden:
-
-    {story_toctree}
-
-Folder
----------------
-
-.. hlist::
-    :columns: 2
-
-    {folder_hlist}
-
-.. toctree::
-    :hidden:
-
-    {folder_toctree}
